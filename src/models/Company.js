@@ -12,7 +12,37 @@ const Company = new Schema({
     score: {
         type: Number,
         required: true,
-        default: 0, 
+        default: 0,
+    },
+    campanhas_direcionadas: {
+        type: Number,
+        required: true,
+        default: 0,
+    },
+    inclusao_corpos: {
+        type: Number,
+        required: true,
+        default: 0,
+    },
+    inclusao_racial: {
+        type: Number,
+        required: true,
+        default: 0,
+    },
+    inclusao_genero: {
+        type: Number,
+        required: true,
+        default: 0,
+    },
+    inclusao_idade: {
+        type: Number,
+        required: true,
+        default: 0,
+    },
+    posicionamento: {
+        type: Number,
+        required: true,
+        default: 0,
     },
 });
 
