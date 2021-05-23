@@ -7,7 +7,7 @@ const routes = require('./routes')
 const app = express();
 const server = require('http').Server(app);
 
-mongoose.connect(`mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_URL}/${process.env.MONGO_DATA_BASE}?retryWrites=true&w=majority`, 
+mongoose.connect(`mongodb+srv://jdcraide:jdcraide@cluster0.igrne.mongodb.net/hackgrrrl?retryWrites=true&w=majority`, 
     { useUnifiedTopology: true,useNewUrlParser: true  }
 );
 
